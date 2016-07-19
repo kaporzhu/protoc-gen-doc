@@ -24,7 +24,7 @@ _testmain.go
 *.prof
 
 /build/
-basket-model/
+/proto
 /node_modules/
 /typings/
 .DS_Store

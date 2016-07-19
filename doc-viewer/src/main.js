@@ -56,7 +56,7 @@ router.map({
   }
 })
 
-Vue.http.get('/static/collection.json').then((response) => {
+Vue.http.get('./static/collection.json').then((response) => {
   db.initData(response.json())
   router.start(App, '#root')
 })
