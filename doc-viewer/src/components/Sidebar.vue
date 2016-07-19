@@ -1,7 +1,7 @@
 <template>
   <div class="sidebar">
     <div class="pure-menu">
-      <h2>API文档</h2>
+      <h2>API Doc</h2>
       <ul class="menu-root">
         <li v-for="service in services">
           <a v-bind:class="{ 'sidebar-link': true, 'current': selectedService == service.name }" v-link="{ name: 'service', params: {service: service.name} }">{{ service.name }}</a>

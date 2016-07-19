@@ -5,7 +5,7 @@
       <p v-for="comment in service.comments">{{ comment }}</p>
     </li>
     <li>
-      <h3>接口</h3>
+      <h3>API service</h3>
       <ul>
         <li v-for="method in service.methods">
           <a v-link="{ name: 'method', params: {service: service.name, method: method.name} }">{{ method.name }}</a>

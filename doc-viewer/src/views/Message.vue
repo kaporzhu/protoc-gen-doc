@@ -5,7 +5,7 @@
       <p v-for="comment in message.comments">{{ comment }}</p>
     </li>
     <li>
-      <h3>字段</h3>
+      <h3>Fields</h3>
       <message-fields :fields="message.fields"></message-fields>
     </li>
   </ul>

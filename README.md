@@ -3,6 +3,12 @@ protoc-gen-doc
 
 > Generate API document from proto files.
 
+Sample
+----------
+[protoc-gen-doc API sample](http://kaporzhu.github.io/protoc-gen-doc-sample/)
+
+[protoc-gen-doc proto sample](http://kaporzhu.github.io/protoc-gen-doc-sample/sample.proto)
+
 API doc rule
 ------------------
 
@@ -13,7 +19,7 @@ Supported decorator:
 
 | **decorator** | **usage** |
 | ------------- | --------- |
-| url | API URL. service_url + rpc url |
+| url | // @url: /user |
 
 
 Sample proto
@@ -37,10 +43,10 @@ service UserService {
 ```
 
 
-How use it?
+How to use it?
 ---------------
 
-1. Copy **bin/<linux|mac>/protoc-gen-doc** to your proto folder
+1. Copy **bin/\<linux|mac\>/protoc-gen-doc** to your proto folder
 2. Compile proto with plugin `protoc-gen-doc`
 
     ```

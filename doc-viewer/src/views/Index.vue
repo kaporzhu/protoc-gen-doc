@@ -1,3 +1,3 @@
 <template>
-  <p>hello</p>
+  <p>Thanks for using protoc-gen-doc</p>
 </template>

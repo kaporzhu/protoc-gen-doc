@@ -5,7 +5,7 @@
       <p v-for="comment in enum.comments">{{ comment }}</p>
     </li>
     <li>
-      <h3>值</h3>
+      <h3>Value</h3>
       <table class="pure-table pure-table-bordered">
         <tbody>
           <tr v-for="item in enum.items">

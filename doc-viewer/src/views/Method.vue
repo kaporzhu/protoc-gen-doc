@@ -9,11 +9,11 @@
       <p>{{ signValue }}</p>
     </li>
     <li>
-      <h3>请求 <a v-link="{ name: 'message', params: {name: inputMessage.type_name} }">{{ inputMessage.name }}</a></h3>
+      <h3>Request <a v-link="{ name: 'message', params: {name: inputMessage.type_name} }">{{ inputMessage.name }}</a></h3>
       <message-fields :fields="inputMessage.fields"></message-fields>
     </li>
     <li>
-      <h3>响应 <a v-link="{ name: 'message', params: {name: outputMessage.type_name} }">{{ outputMessage.name }}</a></h3>
+      <h3>Response <a v-link="{ name: 'message', params: {name: outputMessage.type_name} }">{{ outputMessage.name }}</a></h3>
       <message-fields :fields="outputMessage.fields"></message-fields>
     </li>
   </ul>
