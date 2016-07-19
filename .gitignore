@@ -22,3 +22,13 @@ _testmain.go
 *.exe
 *.test
 *.prof
+
+/build/
+basket-model/
+/node_modules/
+/typings/
+.DS_Store
+.vscode
+local.mk
+systemd
+Dockerfile
